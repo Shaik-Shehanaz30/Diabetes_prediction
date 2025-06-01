@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[4]:
-
-
 import streamlit as st
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
@@ -118,8 +115,6 @@ if submit_button:
     else:
         st.error("Model is not loaded. Please check the model file.")
 
-
-# In[ ]:
 
 
 
